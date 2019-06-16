@@ -1,0 +1,4 @@
+
+add_executable(FindFirstPositionOfTarget FindFirstPositionOfTarget.cpp)
+
+add_executable(FindLastPositionOfTarget FindLastPositionOfTarget.cpp)
