@@ -9,3 +9,6 @@ add_executable(TwoSumUniquePairs TwoSumUniquePairs.cpp)
 add_executable(ThreeSum ThreeSum.cpp)
 
 add_executable(TwoSumClosest TwoSumClosest.cpp)
+
+add_library(twopointer
+        ThreeSum.cpp)
