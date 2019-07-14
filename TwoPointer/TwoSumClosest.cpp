@@ -14,7 +14,7 @@ public:
      * @param target: An integer
      * @return: the difference between the sum and the target
      */
-    int twoSumClosest(vector<int> &nums, int target) {
+    int twoSumClosest(std::vector<int> &nums, int target) {
         // write your code here
         std::sort(nums.begin(), nums.end());
         int delta = std::numeric_limits<int>::max();
