@@ -18,7 +18,7 @@ TEST(TwoPointer, ThreeSum) {
 //        std::cout << std::endl;
 //    }
 
-    std::cout << "test two pointer" << std::endl;
+//    std::cout << "test two pointer" << std::endl;
     ASSERT_EQ(results.size(), 2);
 
 }
