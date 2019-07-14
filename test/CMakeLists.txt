@@ -2,6 +2,7 @@ add_executable(
         unit_tests
         main.cpp
         ThreeSumTest.cpp
+        BFSTest.cpp
 )
 
 target_link_libraries(
@@ -9,6 +10,7 @@ target_link_libraries(
 #        gtest_main
         gtest
         twopointer
+        bfs
 )
 
 add_test(
