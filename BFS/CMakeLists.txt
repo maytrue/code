@@ -1,3 +1,4 @@
 
 add_library(bfs
-        BinaryTreeLevelTravel.cpp)
+        BinaryTreeLevelTravel.cpp
+        BinaryTreeRepresent.cpp)

@@ -8,10 +8,13 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/${CMAKE_INSTALL_BINDIR})
 
 include_directories(./TwoPointer)
 include_directories(./BFS)
+include_directories(./include)
 
 add_subdirectory(./BinarySearch)
 add_subdirectory(./TwoPointer)
 add_subdirectory(./BFS)
+add_subdirectory(./maze)
+add_subdirectory(./DFS)
 
 include(./cmake/googletest.cmake)
 fetch_googletest(
