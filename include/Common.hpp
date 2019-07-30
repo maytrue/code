@@ -9,9 +9,11 @@ class TreeNode {
 public:
     int val;
     TreeNode *left, *right;
+    int isLeftVisited;
     TreeNode(int val) {
         this->val = val;
         this->left = this->right = nullptr;
+        this->isLeftVisited = false;
     }
 };
 
