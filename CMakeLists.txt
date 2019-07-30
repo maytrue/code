@@ -15,6 +15,7 @@ add_subdirectory(./TwoPointer)
 add_subdirectory(./BFS)
 add_subdirectory(./maze)
 add_subdirectory(./DFS)
+add_subdirectory(./basic)
 
 include(./cmake/googletest.cmake)
 fetch_googletest(
